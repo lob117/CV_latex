@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1771975823.99386 "c:/Users/javie/Documents/programacion/latex_hoja_devida/CV_latex/cv.tex" "build/cv.pdf" "cv" 1771975825.54878 0
-  "%OUTDIR%/cv.aux" 1771975825 280 8e90ecfd665d8850e13632c0dafd7310 "pdflatex"
-  "%OUTDIR%/cv.out" 1771975825 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["pdflatex"] 1771976414.47727 "c:/Users/javie/Documents/programacion/latex_hoja_devida/CV_latex/cv.tex" "build/cv.pdf" "cv" 1771976415.98642 0
+  "%OUTDIR%/cv.aux" 1771976415 362 fb9ef3066c03621f25b72007a52bd41a "pdflatex"
+  "%OUTDIR%/cv.out" 1771976415 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "C:/Users/javie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1771879197 122523 388333b97d2e433b66eb03fb8990bdc8 ""
   "C:/Users/javie/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1770003170 28976 6f8a8b614ff10d308c39900e143b3258 ""
   "C:/Users/javie/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1770003167 31952 255705df74c87288adcfe6b23638a9c3 ""
@@ -19,8 +19,8 @@
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1765441417 146654 eaac99efd6386094bb8a3980e34ec87b ""
-  "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-en.ini" 1765441420 3936 fef897bbcfe8e9d18c93a3d2d53cf9d8 ""
-  "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-english.tex" 1765441420 374 a9c05f002d9437e6de45ac1cc23d56c2 ""
+  "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-es.ini" 1765441421 4303 c450545e79f0d9ac3027df4bd9b132d8 ""
+  "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-spanish.tex" 1765441421 374 26aa36054295520df734dd14cd75addc ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/babel/txtbabel.def" 1765441417 5231 82bb24bf20af7e4d760717f2cadb5170 ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty" 1575926576 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -36,7 +36,7 @@
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.sty" 1575105840 21514 b7557edcee22835ef6b03ede1802dad4 ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquecounter.sty" 1576434012 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cfg" 1705750854 902 c30e5c373bc58bde21f8f63a3091626f ""
-  "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/latex/babel-english/english.ldf" 1623001666 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
+  "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/latex/babel-spanish/spanish.ldf" 1622279580 26965 3b6d1655ad716f98e788b1fb9f2e87b8 ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1761900684 20144 b966087dda3b194755eb460d32e2ef75 ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty" 1761900684 5275 6f9d359641b36842524cdb97716ab75f ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty" 1761900684 5048 0270515b828149155424600fd2d58ac5 ""
@@ -63,8 +63,8 @@
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/javie/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/javie/Documents/programacion/latex_hoja_devida/CV_latex/cv.tex" 1771975822 5292 9f66c007371ec0944ae9a819965a0868 ""
-  "cv.tex" 1771975822 5292 9f66c007371ec0944ae9a819965a0868 ""
+  "c:/Users/javie/Documents/programacion/latex_hoja_devida/CV_latex/cv.tex" 1771976411 5569 d209d3cb347adff4155a3fac4c13c975 ""
+  "cv.tex" 1771976411 5569 d209d3cb347adff4155a3fac4c13c975 ""
   (generated)
   "%OUTDIR%/cv.aux"
   "%OUTDIR%/cv.log"
