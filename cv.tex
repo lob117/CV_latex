@@ -11,6 +11,7 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
+\usepackage{graphicx} % <-- PARA IMÁGENES
 
 \geometry{margin=2cm}
 \setlength{\parindent}{0pt}
@@ -34,28 +35,32 @@
 \begin{document}
 
 % --------------------
-% ENCABEZADO
+% ENCABEZADO CON FOTO
 % --------------------
-\begin{center}
+\begin{minipage}{0.75\textwidth}
     {\LARGE \textbf{JAVIER JOSÉ LOBATO CEBALLOS}}\\
     \vspace{2mm}
     \textbf{Ingeniero Electrónico}\\
     \vspace{2mm}
     \href{mailto:javierlobato@hotmail.com}{javierlobato@hotmail.com} \,|\, 
-    +57 300 127 6123 \,|\, CC: 1004360307 \,|\, https://github.com/lob117
-\end{center}
+    +57 300 127 6123 \,|\, CC: 1004360307 \,|\, \\
+    \href{https://github.com/lob117}{github.com/lob117}
+\end{minipage}
+\hfill
+\begin{minipage}{0.23\textwidth}
+    \begin{flushright}
+        \includegraphics[width=3cm]{C:/Users/javie/Pictures/Screenshots/Captura de pantalla 2025-02-19 115738.png} % <-- coloca aquí tu imagen
+    \end{flushright}
+\end{minipage}
 
 \vspace{4mm}
+
 % --------------------
 % PERFIL PROFESIONAL
 % --------------------
 \section*{Perfil Profesional}
 
-Ingeniero Electrónico con enfoque en automatización de procesos e Innovación Digital, análisis de datos y tecnologías IoT.
-Experiencia en el desarrollo de soluciones basadas en Inteligencia Artificial (OCR y geoparsing),
-integración de flujos de trabajo automatizados mediante \textbf{n8n} y contenedores \textbf{Docker}.
-Competente en el manejo de bases de datos \textbf{SQL} y lenguajes como \textbf{Python y C}.
-Aplicados a la toma de decisiones estratégicas, captura de métricas operativas y optimización de procesos bajo metodologías ágiles.
+Ingeniero Electrónico con enfoque técnico en mantenimiento, diagnóstico y reparación de sistemas electrónicos, equipos de cómputo y dispositivos UAV. Experiencia en sistemas embebidos, IoT y procesamiento de datos geoespaciales. Capacitado en diagnóstico de fallas electrónicas, reparación de placas, mantenimiento de infraestructura tecnológica y conectividad de redes. Con habilidades en programación (Python y C), bases de datos SQL y automatización de procesos. Orientado a soluciones prácticas en hardware, integración de sistemas y soporte técnico especializado.
 
 % --------------------
 % HABILIDADES
@@ -63,10 +68,10 @@ Aplicados a la toma de decisiones estratégicas, captura de métricas operativas
 \section*{Habilidades Técnicas}
 
 \begin{itemize}[leftmargin=*]
-    \item \textbf{Ecosistema de Automatización:} Diseño de flujos en n8n y Power Automate.
-    \item \textbf{Arquitectura de Datos e IA:} Gestión de bases de datos SQL, implementación de modelos RAG (Ollama/LangChain) y despliegue en contenedores Docker.
-    \item \textbf{Innovación y Prototipado:} Desarrollo de Pruebas de Concepto (PoC) rápidas y integración de hardware IoT  (esp32 y stm32) con broker en aws  
-    \item \textbf{Análisis de Procesos y datos:} Identificación de oportunidades de mejora, levantamiento de requerimientos técnicos, metodologías metodologías ágiles Scrum y informes técnicos (Excel y Google sheets).
+    \item \textbf{Diagnóstico y reparación electrónica.}
+    \item \textbf{Mantenimiento de hardware (PC, UPS, drones).}
+    \item \textbf{Redes y conectividad (UTP, PoE, switches).}  
+    \item \textbf{Análisis de procesos y datos:} Identificación de oportunidades de mejora, levantamiento de requerimientos técnicos, metodologías ágiles Scrum e informes técnicos (Excel y Google Sheets).
     \item \textbf{Lenguajes:} Python, C/C++ y SQL.
 \end{itemize}
 
@@ -79,23 +84,10 @@ Aplicados a la toma de decisiones estratégicas, captura de métricas operativas
 \textit{Ingeniero Electrónico y Automatización de Procesos} \hfill Agosto 2025 -- Diciembre 2025
 
 \begin{itemize}[leftmargin=*]
- \item Lideré la \textbf{ideación y diseño de soluciones} de automatización mediante el uso de OCR y Geoparsing, creando una gobernanza  de datos digitales.
-    \item Diseñé la arquitectura funcional de flujos de trabajo en \textbf{n8n y Docker}, integrando componentes de IA para la transformación de datos no estructurados en información estratégica.
-    \item Desarrollé prototipos rápidos (\textbf{PoC}) para validar la viabilidad técnica de integraciones entre plataformas GIS y bases de datos SQL.
-
+    \item Automatización de procesos mediante herramientas e inteligencia artificial.
+    \item Mantenimiento de motores de drones y baterías.
+    \item Desarrollo de soluciones basadas en OCR y geoparsing.
 \end{itemize}
-
-\vspace{2mm}
-
-\textbf{Corporación NaturalSIG} \\
-\textit{Especialista en Datos UAV y Flujos Geoespaciales} \hfill Enero 2025 -- Junio 2025
-
-\begin{itemize}[leftmargin=*]
-    \item Gestión técnica y mantenimiento preventivo de plataformas UAV (EbeeX y Phantom 4).
-    \item Automaticé la captura y procesamiento de datos masivos provenientes de sensores multiespectrales, optimizando el procesamiento de entrega de modelos 3D y mosaicos RGB.
-    \item Aseguré la \textbf{integridad de las métricas} de rendimiento de los equipos UAV, gestionando el mantenimiento preventivo basado en análisis de datos operativos.
-\end{itemize}
-
 
 \vspace{2mm}
 
@@ -103,8 +95,12 @@ Aplicados a la toma de decisiones estratégicas, captura de métricas operativas
 \textit{Practicante de Ingeniería (Optimización y Visión Artificial)} \hfill Agosto 2024 -- Diciembre 2024
 
 \begin{itemize}[leftmargin=*]
-    \item Desarrollé algoritmos de visión artificial para la automatización del conteo vehicular, transformando capturas de video en dashboards de análisis de tráfico.
-    \item Diseñé estructuras de líneas eléctricas y edificaciones en AutoCAD.
+    \item Diagnóstico y reparación básica de UPS de oficina.
+    \item Mantenimiento de equipos de cómputo (actualización, formateo y optimización).
+    \item Reparación de placas y componentes electrónicos.
+    \item Desarrollo de algoritmos de visión artificial para conteo vehicular.
+    \item Procesamiento de datos geoespaciales mediante herramientas SIG.
+    \item Diseño de estructuras eléctricas y edificaciones en AutoCAD.
 \end{itemize}
 
 % --------------------
@@ -120,7 +116,6 @@ APD \hfill 2025
 
 \textbf{Inglés Conversacional (B1)} \\
 IFT Cajamag \hfill 2025 -- 2026
-
 
 % --------------------
 % INFORMACIÓN ADICIONAL
